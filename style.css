@@ -23,7 +23,7 @@ img {
 }
 
 
-.out{
+.out {
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -32,13 +32,13 @@ img {
   margin: 20px 0px;
 }
 
-.both{
+.both {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
-} 
+}
 
 
 .both img {
@@ -46,7 +46,7 @@ img {
   background: black;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,12 +55,12 @@ img {
 }
 
 
-button{
+button {
   background: black;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
- 
+
 }
