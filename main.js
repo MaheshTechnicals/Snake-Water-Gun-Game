@@ -11,7 +11,7 @@ let a = ["S", "G", "W"]
 
 let computer = a[Math.floor(Math.random() * a.length)]
 
-
+console.log(computer)
 
 
 btns.forEach((btn) => {
@@ -35,20 +35,16 @@ btns.forEach((btn) => {
 
     }
 
-    else if (you.contains("G") && computer == "W") {
+    else if (you.contains("G") && computer == "S") {
       left.src = "charecters/g.png"
-      right.src = "charecters/w.png"
-     post.innerHTML=`😔 YOU LOS`
+      right.src = "charecters/s.png"
+      post.innerHTML = `😔 YOU LOS`
     }
 
-
-
-
     else if (you.contains("G") && computer == "W") {
       left.src = "charecters/g.png"
       right.src = "charecters/w.png"
-      `<h3 class="red" >😔 YOU LOSS</h3>`
-
+      post.innerHTML = `😔 YOU LOS`
     }
 
 
@@ -62,9 +58,11 @@ btns.forEach((btn) => {
     else if (you.contains("W") && computer == "G") {
       left.src = "charecters/w.png"
       right.src = "charecters/g.png"
-      `<h3 class="red" >😔 YOU LOSS</h3>`
+      post.innerText = "☺ YOU WIN"
 
     }
+
+
 
     else if (you.value = ("S") == computer) {
       left.src = "charecters/s.png"
