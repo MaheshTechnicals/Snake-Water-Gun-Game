@@ -29,5 +29,38 @@ img {
   padding: 10px;
   background: darkviolet;
   color: white;
-  margin-top: 20px ;
+  margin: 20px 0px;
+}
+
+.both{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+} 
+
+
+.both img {
+  border: 1px solid white;
+  background: black;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+
+button{
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+ 
 }
