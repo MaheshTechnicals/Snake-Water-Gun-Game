@@ -57,9 +57,24 @@ btns.forEach((btn) => {
       right.src="charecters/g.png"
     } 
 
-    else if (you.value== computer) {
+    else if (you.value=("S") == computer) {
       console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
+      left.src="charecters/s.png"
+      right.src="charecters/s.png"
     }
+
+else if (you.value=("G") == computer) {
+      console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
+      left.src="charecters/g.png"
+      right.src="charecters/g.png"
+    }
+
+else if (you.value=("W") == computer) {
+      console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
+      left.src="charecters/w.png"
+      right.src="charecters/w.png"
+    }
+
 
     else {
       console.log(computer)
