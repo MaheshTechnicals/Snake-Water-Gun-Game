@@ -39,23 +39,19 @@ btns.forEach((btn) => {
 
     else if (you.contains("W") && computer == "G") {
       console.log(`☺ YOU WIN. COMPUTER IS ${computer}`)
-    }
+    } 
 
-    else if (you.contains("S") == computer) {
-      console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
-    }
-
-    else if (you.contains("G") == computer) {
-      console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
-    }
-
-    else if (you.contains("W") == computer) {
+    else if (you.value== computer) {
       console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
     }
 
     else {
       console.log(computer)
     }
+
+
+
+
 
   })
 })
@@ -66,3 +62,5 @@ btns.forEach((btn) => {
 restart.addEventListener("click", () => {
 location.reload()
 })
+
+
