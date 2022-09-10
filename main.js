@@ -6,7 +6,7 @@ let right = document.getElementById("right")
 
 let a = ["S", "G", "W"]
 
-    let computer = a[Math.floor(Math.random() * a.length)]
+let computer = a[Math.floor(Math.random() * a.length)]
 
 
 
@@ -18,66 +18,51 @@ btns.forEach((btn) => {
 
 
     if (you.contains("S") && computer == "G") {
-      console.log(`😔 YOU Lost Your Gane. COMPUTER IS ${computer}`)
-  
-      left.src="charecters/s.png"
-      right.src="charecters/g.png"
+      left.src = "charecters/s.png"
+      right.src = "charecters/g.png"
     }
 
     else if (you.contains("S") && computer == "W") {
-      console.log(`☺ YOU WIN. COMPUTER IS ${computer}`)
-      left.src="charecters/s.png"
-      right.src="charecters/w.png"
+      left.src = "charecters/s.png"
+      right.src = "charecters/w.png"
     }
 
 
     else if (you.contains("G") && computer == "S") {
-      console.log(`☺️ YOU WIN. COMPUTER IS ${computer}`)
-      left.src="charecters/g.png"
-      right.src="charecters/s.png"
+      left.src = "charecters/g.png"
+      right.src = "charecters/s.png"
     }
 
 
     else if (you.contains("G") && computer == "W") {
-      console.log(`😔 YOU Lost Your Game. COMPUTER IS ${computer}`)
-      left.src="charecters/g.png"
-      right.src="charecters/w.png"
+      left.src = "charecters/g.png"
+      right.src = "charecters/w.png"
     }
 
 
     else if (you.contains("W") && computer == "S") {
-      console.log(`😔 YOU Lost Your Game. COMPUTER IS ${computer}`)
-      left.src="charecters/w.png"
-      right.src="charecters/s.png"
+      left.src = "charecters/w.png"
+      right.src = "charecters/s.png"
     }
 
     else if (you.contains("W") && computer == "G") {
-      console.log(`☺ YOU WIN. COMPUTER IS ${computer}`)
-      left.src="charecters/w.png"
-      right.src="charecters/g.png"
-    } 
-
-    else if (you.value=("S") == computer) {
-      console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
-      left.src="charecters/s.png"
-      right.src="charecters/s.png"
+      left.src = "charecters/w.png"
+      right.src = "charecters/g.png"
     }
 
-else if (you.value=("G") == computer) {
-      console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
-      left.src="charecters/g.png"
-      right.src="charecters/g.png"
+    else if (you.value = ("S") == computer) {
+      left.src = "charecters/s.png"
+      right.src = "charecters/s.png"
     }
 
-else if (you.value=("W") == computer) {
-      console.log(`😲 Game Draw. Because computer Is Also ${computer}`)
-      left.src="charecters/w.png"
-      right.src="charecters/w.png"
+    else if (you.value = ("G") == computer) {
+      left.src = "charecters/g.png"
+      right.src = "charecters/g.png"
     }
 
-
-    else {
-      console.log(computer)
+    else if (you.value = ("W") == computer) {
+      left.src = "charecters/w.png"
+      right.src = "charecters/w.png"
     }
 
 
@@ -91,7 +76,5 @@ else if (you.value=("W") == computer) {
 
 
 restart.addEventListener("click", () => {
-location.reload()
+  location.reload()
 })
-
-
