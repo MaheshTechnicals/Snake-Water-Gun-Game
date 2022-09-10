@@ -1,14 +1,14 @@
-h2{
+h2 {
   text-align: center;
-} 
+}
 
 
-.all{
+.all {
   display: flex;
   justify-content: center;
-  background: yellow; 
-  padding: 10px ;
-  
+  background: yellow;
+  padding: 10px;
+
 }
 
 
@@ -19,5 +19,15 @@ img {
   border-radius: 50%;
   padding: 5px;
   margin-right: 10px;
-  
+
+}
+
+
+.out{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: darkviolet;
+  color: white;
+  margin-top: 20px ;
 }
