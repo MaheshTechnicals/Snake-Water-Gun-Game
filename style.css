@@ -1,3 +1,9 @@
+body {
+  background: #7efff5;
+}
+
+
+
 h2 {
   text-align: center;
 }
@@ -6,7 +12,6 @@ h2 {
 .all {
   display: flex;
   justify-content: center;
-  background: yellow;
   padding: 10px;
 
 }
@@ -44,6 +49,7 @@ img {
 .both img {
   border: 1px solid white;
   background: black;
+  margin-right: 0px;
 }
 
 .btn {
