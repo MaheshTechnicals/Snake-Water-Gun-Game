@@ -51,8 +51,8 @@ btns.forEach((btn) => {
     else if (you.contains("W") && computer == "S") {
       left.src = "charecters/w.png"
       right.src = "charecters/s.png"
-      post.innerText = "☺ YOU WIN"
-      play("sounds/win.mp3")
+      post.innerText="😔 YOU LOSS"
+      play("sounds/L.mp3")
     }
 
     else if (you.contains("W") && computer == "G") {
