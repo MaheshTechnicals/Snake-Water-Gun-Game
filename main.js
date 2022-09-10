@@ -1,16 +1,15 @@
 let btns = document.querySelectorAll("img")
 let restart = document.querySelector("button")
 
+let a = ["S", "G", "W"]
+
+    let computer = a[Math.floor(Math.random() * a.length)]
+
 
 
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
 
-
-
-    let a = ["S", "G", "W"]
-
-    let computer = a[Math.floor(Math.random() * a.length)]
 
     let you = e.currentTarget.classList
 
@@ -64,9 +63,6 @@ btns.forEach((btn) => {
 
 
 
-restart.addEventListener("click", ()=>{
- 
+restart.addEventListener("click", () => {
+location.reload()
 })
-
-
-
